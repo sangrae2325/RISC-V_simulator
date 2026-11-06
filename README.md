@@ -7,9 +7,9 @@ RV32I 중 14개 명령어(add, sub, and, or, addi, andi, ori, lui, lw, sw, beq, 
 | 역할 | 이름 | 담당 파일 |
 | --- | --- | --- |
 | A | 이상래 | `main.py`, `tests/run_tests.py`, `README.md` |
-| B | 진 | `utils.py`, `memory.py`, `executor.py`의 `exec_load`, `exec_store` |
-| C | 보민 | `decoder.py`, `tests/make_test.py` |
-| D | 해인 | `executor.py`의 `set_reg`, `exec_r`, `exec_i`, `exec_lui`, `exec_branch` |
+| B | 류진 | `utils.py`, `memory.py`, `executor.py`의 `exec_load`, `exec_store` |
+| C | 김보민 | `decoder.py`, `tests/make_test.py` |
+| D | 김해인 | `executor.py`의 `set_reg`, `exec_r`, `exec_i`, `exec_lui`, `exec_branch` |
 
 ## 언어·버전·의존성
 
