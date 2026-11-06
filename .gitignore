@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+
+# 실행 결과물 (테스트 기대값 expected_data.out 은 제외 안 됨)
+/data.out
