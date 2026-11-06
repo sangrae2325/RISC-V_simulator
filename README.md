@@ -13,7 +13,7 @@ RV32I 중 14개 명령어(add, sub, and, or, addi, andi, ori, lui, lw, sw, beq, 
 
 ## 언어·버전·의존성
 
-- Python 3.10 이상 (TODO: 최종 확인한 버전 기재)
+- Python 3.10 이상
 - 외부 라이브러리 없음 (표준 라이브러리만 사용)
 
 ## 실행 방법
