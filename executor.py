@@ -1,4 +1,4 @@
-"""executor.py - 명령어 실행 (담당: D 해인 / lw·sw는 B 진, execute는 공통)
+"""executor.py - 명령어 실행 (담당: D 해인, execute는 공통)
 
 - regs: 길이 32 리스트, 각 원소는 0 ~ 0xFFFFFFFF (항상 to_u32 된 값)
 - d:    decoder.decode()가 반환한 dict
