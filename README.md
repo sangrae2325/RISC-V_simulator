@@ -13,7 +13,7 @@ RV32I 중 14개 명령어(add, sub, and, or, addi, andi, ori, lui, lw, sw, beq, 
 
 ## 언어·버전·의존성
 
-- Python 3.10 이상
+- Python 3.10 이상 (개발·테스트 환경: Python 3.11.5, macOS)
 - 외부 라이브러리 없음 (표준 라이브러리만 사용)
 
 ## 실행 방법
@@ -44,8 +44,12 @@ riscv-simulator/
 └── tests/
     ├── make_test.py
     ├── run_tests.py
-    └── cases/
-        └── t01/     # text.bin, data.bin, expected_stdout.txt, expected_data.out, README.md
+    └── cases/       # 케이스마다 text.bin, data.bin, expected_stdout.txt, expected_data.out, README.md
+        ├── t01_spec_example/    # 명세서 7절 예시
+        ├── t07_lw_sw/           # lw/sw 음수·양수 offset, 양 끝 주소
+        ├── t08_data_*/          # data.bin 비어 있음 / 초기값 있음
+        ├── t09_lui_addi_const/  # lui+addi 큰 상수 (음수 imm 보정)
+        └── t10_funct*_*/        # funct3·funct7이 표에 없는 명령어 -> invalid
 ```
 
 ## 작업 규칙

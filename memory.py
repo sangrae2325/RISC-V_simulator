@@ -1,4 +1,4 @@
-"""memory.py - 메모리와 파일 담당 (담당: B 진)
+"""memory.py - 메모리와 파일 담당 (담당: B 류진)
 
 - text_mem: bytes      (text.bin 내용 그대로, 주소 TEXT_START부터)
 - data_mem: bytearray  (정확히 DATA_SIZE 바이트, 주소 DATA_START부터)
