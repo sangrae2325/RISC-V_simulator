@@ -45,6 +45,7 @@ riscv-simulator/
     ├── make_test.py
     ├── run_tests.py
     └── cases/       # 케이스마다 text.bin, data.bin, expected_stdout.txt, expected_data.out, README.md
+        ├── s01_* ~ s05_*/       # 교수님 제공 공식 샘플 5세트 (test_input_5sets.zip)
         ├── t01_spec_example/    # 명세서 7절 예시
         ├── t07_lw_sw/           # lw/sw 음수·양수 offset, 양 끝 주소
         ├── t08_data_*/          # data.bin 비어 있음 / 초기값 있음
